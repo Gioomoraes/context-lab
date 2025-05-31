@@ -10,3 +10,5 @@ export const useCounterContext = () => {
 
   return context;
 };
+
+export default useCounterContext;
