@@ -11,29 +11,6 @@ Este projeto foi baseado no conteúdo de um curso da Udemy, mas adaptado com vit
 - [React Context API](https://react.dev/reference/react/useContext)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## 📁 Estrutura do projeto
-
-```bash
-.
-├── public/
-│   └── index.html
-├── src/
-│   ├── context/
-│   │   ├── CounterContext.jsx
-│   │   └── TitleColorContext.jsx
-│   ├── hooks/
-│   │   ├── useCounterContext.jsx
-│   │   └── useTitleColorContext.jsx
-│   ├── pages/
-│   │   └── Home.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
 ## Autora💜
 
 - [@Gioomoraes](https://github.com/Gioomoraes)
