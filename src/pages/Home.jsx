@@ -11,15 +11,23 @@ const Home = () => {
 
   const { counter } = useCounterContext();
 
-  const { color } = useTitleColorContext();
+  const { color, dispatch } = useTitleColorContext();
 
   console.log(color);
 
+  const setTitleColor = (color) => {
+    dispatch({ type: color });
+  };
+
   return (
     <div>
-      <h1 style={{ color: color }}>Home</h1>
+      0<h1 style={{ color: color }}>Home</h1>
       <p>Valor do contador: {counter}</p>
       <ChangeCounter />
+      <div>
+        <button onClick={() => setTitleColor("RED")}>Vermelho</button>
+        <button onClick={() => setTitleColor("BLUE")}>Vermelho</button>
+      </div>
     </div>
   );
 };
