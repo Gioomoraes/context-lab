@@ -1,4 +1,4 @@
-# context-lab-vite
+# context-lab
 
 Aplicação React criada com Vite para estudos de React Context API.
 
