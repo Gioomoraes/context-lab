@@ -32,9 +32,8 @@ Este projeto foi baseado no conteúdo de um curso da Udemy, mas adaptado com vit
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
 ## Autora💜
 
 - [@Gioomoraes](https://github.com/Gioomoraes)
-
-```
